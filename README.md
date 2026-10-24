@@ -28,6 +28,14 @@ thresholds are crossed. Every action is recorded on-chain.
 
 ## Endpoints
 
+Live service (always on, deployed behind TLS on our own infrastructure):
+
+- `https://137-74-165-236.sslip.io/hf-agent/status` — monitoring status
+- `https://137-74-165-236.sslip.io/hf-agent/invoke` — A2A invocation (health-factor report)
+- `https://137-74-165-236.sslip.io/hf-agent/agent-card.json` — agent card served live
+
+Static hosting (agent card + landing):
+
 - `GET /.well-known/agent-card.json` — EIP-8004 / A2A agent card
 - `GET /status` — monitoring status, monitored positions, last action
 - `POST /invoke` — A2A invocation: returns a health-factor report for configured positions

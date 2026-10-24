@@ -24,12 +24,21 @@
   "endpoints": [
     {
       "name": "A2A",
-      "endpoint": "https://maria-hf-agent.netlify.app/.well-known/agent-card.json",
+      "endpoint": "https://137-74-165-236.sslip.io/hf-agent/agent-card.json",
       "version": "0.3.0",
       "capabilities": [
         "agent-card",
         "health-factor-status",
-        "position-report"
+        "position-report",
+        "invoke"
+      ]
+    },
+    {
+      "name": "A2A-Invoke",
+      "endpoint": "https://137-74-165-236.sslip.io/hf-agent/invoke",
+      "version": "1.0.0",
+      "capabilities": [
+        "health-factor-report"
       ]
     },
     {
@@ -42,5 +51,6 @@
     "organization": "cryptovault",
     "url": "https://cryptovault.se"
   },
-  "agentId": 2662
+  "agentId": 2662,
+  "status_endpoint": "https://137-74-165-236.sslip.io/hf-agent/status"
 }
