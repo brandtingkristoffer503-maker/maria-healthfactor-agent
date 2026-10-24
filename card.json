@@ -1,0 +1,46 @@
+{
+  "name": "Maria HealthFactor Sentinel",
+  "description": "Health-factor monitoring agent for BNB Chain lending markets. Continuously watches collateral health factors on BSC lending protocols and acts to prevent liquidation: repays debt, rebalances collateral, and adjusts positions when thresholds are crossed. Category: health factor.",
+  "version": "1.0.0",
+  "category": "health factor",
+  "homepage": "https://maria-hf-agent.netlify.app",
+  "capabilities": [
+    "health-factor-monitoring",
+    "liquidation-prevention",
+    "collateral-rebalance",
+    "debt-repay",
+    "lending-position-alerts"
+  ],
+  "blockchain": {
+    "chain": "bnb-smart-chain",
+    "chainId": 97,
+    "network": "testnet",
+    "standard": "ERC-8004",
+    "registry": "0x8004A818BFB912233c491871b3d84c89A494BD9e",
+    "owner": "0x893Ce167AACEf83F2b6cCA8BA51d593d797c88Bc",
+    "agentId": 2662,
+    "transactionHash": "0xcc95d9c8b7defff459d7d85c2d5630172585c2d59b40cc77860407e69d9d4069"
+  },
+  "endpoints": [
+    {
+      "name": "A2A",
+      "endpoint": "https://maria-hf-agent.netlify.app/.well-known/agent-card.json",
+      "version": "0.3.0",
+      "capabilities": [
+        "agent-card",
+        "health-factor-status",
+        "position-report"
+      ]
+    },
+    {
+      "name": "web",
+      "endpoint": "https://maria-hf-agent.netlify.app",
+      "version": "1.0.0"
+    }
+  ],
+  "provider": {
+    "organization": "cryptovault",
+    "url": "https://cryptovault.se"
+  },
+  "agentId": 2662
+}

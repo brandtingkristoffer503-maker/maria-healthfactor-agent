@@ -1,0 +1,16 @@
+{
+  "rpc": "https://data-seed-prebsc-2-s2.binance.org:8545",
+  "chainId": 97,
+  "threshold_repay": 1.20,
+  "threshold_rebalance": 1.35,
+  "HF_PORT": 8010,
+  "HF_INTERVAL": 300,
+  "positions": [
+    {
+      "id": "demo-position",
+      "comptroller": "0x0000000000000000000000000000000000000000",
+      "wallet": "0x893Ce167AACEf83F2b6cCA8BA51d593d797c88Bc"
+    }
+  ],
+  "dry_run": true
+}

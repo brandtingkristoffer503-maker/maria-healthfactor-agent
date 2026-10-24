@@ -1,0 +1,8 @@
+{
+  "rpc": "https://data-seed-prebsc-2-s2.binance.org:8545",
+  "chainId": 97,
+  "threshold_repay": 1.2,
+  "threshold_rebalance": 1.35,
+  "positions": [],
+  "dry_run": true
+}
